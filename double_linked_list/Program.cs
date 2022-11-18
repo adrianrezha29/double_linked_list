@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace double_linked_list
 {
-    class node
+    class Node
     {
         /*node class represent the node of doubly linked list
          *it consists of the information part and links to
@@ -15,13 +15,18 @@ namespace double_linked_list
         public int noMhs;
         public string name;
         //point to the succeding node
-        public node next;
+        public Node next;
         //point to the preceeding node
-        public node prev;
+        public Node prev;
     }
     class DoubleLinkedList
     {
-        static void Main(string[] args)
+        Node START;
+
+        //constructor
+
+
+       
         {
         }
     }
