@@ -19,7 +19,7 @@ namespace double_linked_list
         //point to the preceeding node
         public node prev;
     }
-    internal class Program
+    class DoubleLinkedList
     {
         static void Main(string[] args)
         {
