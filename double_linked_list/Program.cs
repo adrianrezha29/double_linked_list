@@ -136,5 +136,6 @@ namespace double_linked_list
                     Console.WriteLine(currentNode.noMhs + currentNode.next.name + "\n");
             }
         }
+        public void descending()
     }
 }
