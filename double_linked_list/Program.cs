@@ -77,8 +77,14 @@ namespace double_linked_list
                 previous.next = newNode;
                 return ;
             }
-            current.prev = newNode
+            current.prev = newNode;
             previous.next = newNode;
+        }
+
+        public bool Search(int rollNo,ref Node previous, ref Node current)
+        {
+            previous = current = START;
+
         }
     }
 }
