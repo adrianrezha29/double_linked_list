@@ -25,9 +25,12 @@ namespace double_linked_list
 
         //constructor
 
-
-       
+        public void addNode()
         {
+            int nim;
+            string nim;
+            Console.WriteLine("\nEnter the roll number of the student: ");
+            nim = Convert.ToInt32(Console.ReadLine());
         }
     }
 }
