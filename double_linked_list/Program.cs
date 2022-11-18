@@ -124,7 +124,7 @@ namespace double_linked_list
             else
                 return false;
         }
-        public bool ascending()
+        public void ascending()
         {
             if (listEmpty())
                 Console.WriteLine("\nList is empty");
@@ -132,8 +132,8 @@ namespace double_linked_list
             {
                 Console.WriteLine("\nRecord in the ascending order of" + "Roll number are:\n");
                 Node currentNode;
-                for(currentNode = START; currentNode != null; currentNode = currentNode.next)
-                    Console.WriteLine()
+                for (currentNode = START; currentNode != null; currentNode = currentNode.next)
+                    Console.WriteLine(currentNode.noMhs + currentNode.next.name + "\n");
             }
         }
     }
